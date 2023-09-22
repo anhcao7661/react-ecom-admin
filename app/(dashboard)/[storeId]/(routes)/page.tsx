@@ -68,6 +68,7 @@ const DashboardPage: React.FC<DashboardPageProps> = async ({ params }) => {
             <Overview data={graphRevenue} />
           </CardContent>
         </Card>
+        <div className="text-center">Development by AnhCao's team</div>
       </div>
     </div>
   );
